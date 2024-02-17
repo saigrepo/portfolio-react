@@ -1,10 +1,9 @@
 .temp-container h3{
     margin-top:5px;
-    margin-bottom:0px;
+    margin-bottom:0;
 }
 
 .temp-container p{
-    font-family: "Times New Roman";
     font-weight: 300;
     margin: auto;
     font-style: italic;
@@ -17,6 +16,6 @@
 
 .temp-container div p {
     font-size: small;
-    margin: 0px;
+    margin: 0;
     font-style: normal;
 }
