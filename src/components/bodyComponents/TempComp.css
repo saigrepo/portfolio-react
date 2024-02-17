@@ -1,0 +1,22 @@
+.temp-container h3{
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+.temp-container p{
+    font-family: "Times New Roman";
+    font-weight: 300;
+    margin: auto;
+    font-style: italic;
+}
+
+.temp-container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-container div p {
+    font-size: small;
+    margin: 0px;
+    font-style: normal;
+}

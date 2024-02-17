@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    align-items: center;
+    background-image: url("../assets/topBg.svg");
+    background-size: cover;
+    background-color: rgba(87, 97, 110, 0);
+}
+
+header img {
+    height: 15vh;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.header-details {
+    border: 1px solid;
+    padding: 5px;
+    margin-left: 50px;
+    width: 80%;
+    background-color: #4f5966;
+    color: white;
+}
+
+.header-details h2 {
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.header-details p {
+    font-weight: 200;
+    margin: 0px;
+}
+
+.header-details hr{
+    margin: 5px 0px;
+}
+
+.header-details div {
+    font-weight: 50;
+    margin: 5px 0px;
+}
+
+.header-contact {
+    margin: 25px 0px;
+}
+
+.header-contact ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.header-contact ul li{
+    display: flex;
+    align-items: center;
+    color: #57616e;
+}
+
+.header-contact ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+}
