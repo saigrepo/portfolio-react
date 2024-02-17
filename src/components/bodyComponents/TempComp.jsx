@@ -1,12 +1,15 @@
 import './TempComp.css';
-function  TempComp() {
+function  TempComp(props) {
+    // eslint-disable-next-line react/prop-types
+    const {jobTitle, companyName, startDate, endDate, location} = props.requiredDetails;
+
     return (
         <div className="temp-container">
-            <h3>Software Engineer</h3>
-            <p>Tata Consultancy Services</p>
+            <h3>{jobTitle}</h3>
+            <p>{companyName}</p>
             <div>
-                <p>07/2021 - Present</p>
-                <p>Chennai, IND</p>
+                <p>{startDate} - {endDate}</p>
+                <p>{location}</p>
             </div>
 
         </div>
