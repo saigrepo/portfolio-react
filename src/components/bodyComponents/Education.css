@@ -5,3 +5,15 @@
     margin-bottom: 0;
 }
 
+@media (max-width: 550px) {
+
+    .workExp h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .workExp-points ul li{
+        font-size: 10px;
+        font-weight: 100;
+    }
+}

@@ -7,9 +7,70 @@ header {
     gap: 15rem;
 }
 
+@media (max-width: 1300px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-image: url("../assets/topBg.svg");
+        background-size: cover;
+        background-color: rgba(87, 97, 110, 0);
+        gap: 5em;
+    }
+
+    header img {
+        border: 1px solid;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-image: url("../assets/topBg.svg");
+        background-size: cover;
+        background-color: rgba(87, 97, 110, 0);
+        gap: 2em;
+    }
+
+    header img {
+        border: 1px solid;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 440px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-image: url("../assets/topBg.svg");
+        background-size: cover;
+        background-color: rgba(87, 97, 110, 0);
+        gap: 1em;
+    }
+
+    header img {
+        height: 10vh;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+
+    .header-contact {
+        margin: 2px 0px;
+    }
+
+    .header-contact ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: small;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
 header img {
-    width: 10vw;
-    height: 140px;
+    width: 20%;
+    height: 40%;
     border: 1px solid;
     border-radius: 50%;
 }
