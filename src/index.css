@@ -2,4 +2,5 @@ body {
     background-color: #ffffff;
     margin: 0px 25%;
     padding: 10px;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }

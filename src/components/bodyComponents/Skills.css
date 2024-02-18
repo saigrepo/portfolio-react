@@ -1,0 +1,13 @@
+.skills-top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.skills-card {
+    background-color: #abb0b2;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}

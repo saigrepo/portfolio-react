@@ -1,0 +1,5 @@
+.footer-div {
+    background-image: url("../assets/bottomBg.svg");
+    background-size: revert;
+    background-repeat: repeat;
+}

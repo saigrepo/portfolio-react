@@ -4,20 +4,21 @@ header {
     background-image: url("../assets/topBg.svg");
     background-size: cover;
     background-color: rgba(87, 97, 110, 0);
+    gap: 15rem;
 }
 
 header img {
-    height: 15vh;
+    width: 10vw;
+    height: 140px;
     border: 1px solid;
     border-radius: 50%;
 }
 
 .header-details {
     border: 1px solid;
-    padding: 5px;
-    margin-left: 50px;
-    width: 80%;
-    background-color: #4f5966;
+    padding: 10px;
+    width: 70%;
+    background-color: rgba(79, 89, 102, 0.87);
     color: white;
 }
 
@@ -33,6 +34,7 @@ header img {
 
 .header-details hr{
     margin: 5px 0px;
+    width: 40%;
 }
 
 .header-details div {
@@ -42,13 +44,16 @@ header img {
 
 .header-contact {
     margin: 25px 0px;
+    font-size: 0.9rem;
 }
+
+
 
 .header-contact ul {
     display: flex;
     list-style: none;
-    padding: 0px 30px;
-    justify-content: space-between;
+    gap:1rem;
+    padding: 0px;
 }
 
 .header-contact ul li{
@@ -59,6 +64,8 @@ header img {
 
 .header-contact ul li a{
     text-decoration: none;
-    color: black;
-    margin-left: 2px;
+    color: white;
+    font-size: medium;
+    margin: 0px;
+    padding: 0px;
 }
