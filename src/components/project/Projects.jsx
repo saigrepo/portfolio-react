@@ -5,7 +5,8 @@ function Projects() {
     const todoProject= {
         projectTitle: "Task Planner App",
         projectDesc: "A modern intuitive UI using Figma and translated to high quality flutter interface code",
-        skillsUsed: ["Flutter","Back4App","Figma"]
+        skillsUsed: ["Flutter","Dart","Back4App","Figma"],
+        sourceCode: "https://github.com/saigrepo/todo_flutter_app"
     }
     const lidarProject= {
         projectTitle: "Autonomous Robot with LIDAR",

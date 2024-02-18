@@ -6,10 +6,10 @@
 }
 
 .skills-card {
-    background-color: #abb0b2;
+    background: linear-gradient(225deg, rgba(171, 171, 171, 1.0), rgba(79, 89, 102, 0.9));
     color: white;
     padding: 5px;
-    margin: 0px 5px;
+    margin: 2px 5px;
     border-radius: 5px;
 }
 
@@ -22,7 +22,7 @@
     }
 
     .skills-card {
-        background-color: #abb0b2;
+        background: linear-gradient(225deg, rgba(171, 171, 171, 1.0), rgba(79, 89, 102, 0.9));
         color: white;
         padding: 5px;
         margin: 0;

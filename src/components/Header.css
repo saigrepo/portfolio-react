@@ -4,7 +4,7 @@ header {
     background-image: url("../assets/topBg.svg");
     background-size: cover;
     background-color: rgba(87, 97, 110, 0);
-    gap: 15rem;
+    gap: 13rem;
 }
 
 @media (max-width: 1300px) {
@@ -79,7 +79,7 @@ header img {
     border: 1px solid;
     padding: 10px;
     width: 70%;
-    background-color: rgba(79, 89, 102, 0.87);
+    background: linear-gradient(270deg, rgba(167, 181, 186, 1.0), rgba(79, 89, 102, 0.9));
     color: white;
 }
 
