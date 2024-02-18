@@ -20,7 +20,7 @@ function Header() {
                             <li><a href="tel:+919789917483 "><FaPhone size={20}/></a></li>
                             <li><a href="https://www.linkedin.com/in/saig2000/"><FaLinkedin size={20}/></a></li>
                             <li><a href="https://github.com/saigrepo"><FaGithub size={20}/></a></li>
-                            <li><a href="public/Sai_s_Resume.pdf" download="Sai_s_Resume.pdf"><FaRegFilePdf size={20}/></a></li>
+                            <li><a href="Sai_s_Resume.pdf" download="Sai_s_Resume.pdf"><FaRegFilePdf size={20}/></a></li>
                         </ul>
                     </div>
                 </div>
