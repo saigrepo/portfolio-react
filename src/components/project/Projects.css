@@ -5,6 +5,11 @@
     gap: 1em;
 }
 
+.projects h2 {
+    color: #57616e;
+    margin-bottom: 0;
+}
+
 @media (max-width: 570px) {
     .projects-container {
         display: flex;
@@ -12,5 +17,10 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
+    }
+
+    .projects h2 {
+        color: #57616e;
+        margin-bottom: 0;
     }
 }

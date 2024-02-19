@@ -5,16 +5,16 @@ function Projects() {
     const todoProject= {
         projectTitle: "Task Planner App",
         projectDesc: "A modern intuitive UI using Figma and translated to high quality flutter interface code",
-        skillsUsed: ["Flutter","Dart","Back4App","Figma"],
+        skillsUsed: ["Flutter","Dart","Back4App","Figma","Android","Cross-Platform App"],
         sourceCode: "https://github.com/saigrepo/todo_flutter_app"
     }
     const lidarProject= {
         projectTitle: "Autonomous Robot with LIDAR",
-        projectDesc: "An autonomous environment mapping prototype using 2D Lidar which is powered by Raspberry PI 4 and trained by ML data.",
+        projectDesc: "An autonomous environment mapping prototype using 2D Lidar which is powered by Raspberry PI 4 and trained using ML.",
         skillsUsed: ["Python","Raspberry Pi","Robot Operating System","Machine learning"]
     }
     return (
-        <div className="Projects">
+        <div className="projects">
             <h2>Projects</h2>
             <hr/>
             <div className="projects-container">

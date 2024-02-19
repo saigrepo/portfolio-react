@@ -5,12 +5,27 @@
     font-size: 16px;
 }
 
+.skills h2 {
+    font-size: 22px;
+    color: #57616e;
+    margin-bottom: 0;
+}
+
 .skills-card {
     background: linear-gradient(225deg, rgba(171, 171, 171, 1.0), rgba(79, 89, 102, 0.9));
-    color: white;
+    color: rgba(225, 222, 222, 0.84);
     padding: 5px;
     margin: 2px 5px;
     border-radius: 5px;
+    font-size: 15px;
+    will-change: transform;
+    transition: transform 0.5s;
+}
+
+.skills-card:hover{
+    color: rgba(255, 255, 255, 1);
+    transition: transform 125ms;
+    transform: translateY(-5px);
 }
 
 @media (max-width: 550px) {
@@ -22,10 +37,11 @@
     }
 
     .skills-card {
-        background: linear-gradient(225deg, rgba(171, 171, 171, 1.0), rgba(79, 89, 102, 0.9));
+        background: linear-gradient(225deg, rgba(171, 171, 171, 0.8), rgba(79, 89, 102, 0.9));
         color: white;
         padding: 5px;
         margin: 0;
         border-radius: 5px;
+        font-size: 13px;
     }
 }

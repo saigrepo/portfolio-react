@@ -4,7 +4,11 @@ header {
     background-image: url("../assets/topBg.svg");
     background-size: cover;
     background-color: rgba(87, 97, 110, 0);
-    gap: 13rem;
+    gap: 15em;
+}
+
+header h2{
+    font-size: 26px;
 }
 
 @media (max-width: 1300px) {
@@ -14,7 +18,7 @@ header {
         background-image: url("../assets/topBg.svg");
         background-size: cover;
         background-color: rgba(87, 97, 110, 0);
-        gap: 5em;
+        gap: 15em;
     }
 
     header img {
@@ -30,7 +34,7 @@ header {
         background-image: url("../assets/topBg.svg");
         background-size: cover;
         background-color: rgba(87, 97, 110, 0);
-        gap: 2em;
+        gap: 5em;
     }
 
     header img {
@@ -56,15 +60,15 @@ header {
     }
 
     .header-contact {
-        margin: 2px 0px;
+        margin: 2px 0;
     }
 
     .header-contact ul li a{
         text-decoration: none;
         color: white;
         font-size: small;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -73,38 +77,48 @@ header img {
     height: 40%;
     border: 1px solid;
     border-radius: 50%;
+    transition: transform 0.45s;
+}
+
+header img:hover {
+    transform: scale3d(110%,110%,110%) translateX(-2.5em);
 }
 
 .header-details {
     border: 1px solid;
     padding: 10px;
-    width: 70%;
+    width: 65%;
     background: linear-gradient(270deg, rgba(167, 181, 186, 1.0), rgba(79, 89, 102, 0.9));
     color: white;
+    transition: transform 0.45s;
+}
+
+.header-details:hover {
+    transform: scale3d(110%,110%,110%) translateX(2.5em);
 }
 
 .header-details h2 {
     font-weight: 500;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .header-details p {
     font-weight: 200;
-    margin: 0px;
+    margin: 0;
 }
 
 .header-details hr{
-    margin: 5px 0px;
+    margin: 5px 0;
     width: 40%;
 }
 
 .header-details div {
     font-weight: 50;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .header-contact {
-    margin: 25px 0px;
+    margin: 25px 0;
     font-size: 0.9rem;
 }
 
@@ -114,7 +128,7 @@ header img {
     display: flex;
     list-style: none;
     gap:1rem;
-    padding: 0px;
+    padding: 0;
 }
 
 .header-contact ul li{
@@ -127,6 +141,11 @@ header img {
     text-decoration: none;
     color: white;
     font-size: medium;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.45s;
+}
+
+.header-contact ul li a:hover{
+    transform: translateY(-5px);
 }
